@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="apod-form">
+            <label for="date">Enter a date (YYYY-MM-DD):</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Get APOD</button>
+        </form>
+        <div id="apod-container"></div>
+        <h2>Favourites</h2>
+        <div id="favourites-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
